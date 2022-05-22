@@ -1,7 +1,54 @@
 body {
-    background: lightblue;
+    background-color: #dddddd;
   }
-h1{
+
+.name{
     text-align: center;
     font-size: 50px;
+    font-family: cursive;
+    color: #000;
+    padding-bottom: 0%;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ffffff;
+    margin-bottom: 0;
+    background-color: #000;
 }
+
+.title{
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    color: #ffffff;
+    padding-bottom: 0%;
+    background-color: #000;
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+    position: relative;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    align-self: left;
+  }
+  
+  li a { display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(190, 213, 227);
+  }
+  
+  .active {
+    background-color: #4CAF50;}
