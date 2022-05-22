@@ -24,7 +24,7 @@ body {
     margin-top: 0;
 }
 
-ul {
+#navlist {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -35,20 +35,41 @@ ul {
     width: 100%;
   }
   
-  li {
-    align-self: left;
-  }
-  
-  li a { display: block;
+li a { display: block;
     color: white;
     text-align: center;
     padding: 14px;
     text-decoration: none;
   }
   
-  li a:hover {
+li a:hover {
     background-color: rgb(190, 213, 227);
   }
   
-  .active {
+.active {
     background-color: #4CAF50;}
+
+#About, #Projects, #Goals, #Contact{
+    text-align: center;
+    font-size: 50px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffffff;
+    margin-bottom: 0;
+    background-color: #000;
+}
+
+p{
+    text-align: center;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    margin-top: 15px;
+}
+
+li{
+    text-align: center;
+}
